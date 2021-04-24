@@ -1,15 +1,49 @@
-footer {
-	background-color:#d40c0c;
-	height: 50%;
-  color: rgb(223, 5, 5);
-  padding: 15px;
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.main1 { 
-  display:flex;
-  margin:0 auto;
+.badge{
+    position: relative;
+    bottom:25px;
+    padding:5px 10px;
+    opacity:0.7;
+    font-size: 9px;
 }
 
-a img:hover {
+.panel-danger{
+    height: 300px;
+}
+
+.panel-danger>.panel-heading {
     color: #fff;
+    background-color: rgb(117, 1, 1);
+    border-color: #ebccd1;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
+
+.affix{
+    top: 0;
+    width: calc(100% - 30px) !important;
+    z-index: 10 !important;
+}
+
+.glyphicon{
+    font-size: 70px;
+    color: rgb(117, 1, 1);
+    display: block;
+    text-align:center;
+    text-shadow: -2px 3px 5px #999;
+}
+
+.btn{
+    margin-bottom: 1.25rem;
+    color: #fff;
+    background-color: rgb(117, 1, 1);
+    border-color: rgb(117, 1, 1);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+  

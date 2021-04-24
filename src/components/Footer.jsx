@@ -9,7 +9,8 @@ const Footer = (props) => {
       <div class="row justify-content-center">
         <div class="col-md-12 well">
           <div class="col-md-12">
-          <p>Presentado por Cristian Aragón - Todos los derechos reservados &copy; {props.fecha}</p>
+              
+          <p class="text-success text-center">Presentado por Cristian Aragón - Todos los derechos reservados &copy; {props.fecha}</p>
           </div>
         </div>
       </div>
